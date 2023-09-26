@@ -1,0 +1,14 @@
+default:
+  outputs:
+    dev:
+      type: snowflake
+      account: cn71706.eu-central-1
+      user: sesq
+      password: $yB985w75rKD5#Fm
+      role: ACCOUNTADMIN
+      database: ANALYTICS
+      warehouse: TRANSFORMING
+      schema: DBT_LOCAL
+      threads: 2
+      client_session_keep_alive: False
+  target: dev
